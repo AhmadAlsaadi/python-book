@@ -1,0 +1,38 @@
+\documentclass{scrreprt}
+
+\usepackage{listings}
+
+\usepackage[dvipsnames]{xcolor}
+
+\definecolor{keywords}{HTML}{8A4A0B}
+
+\definecolor{background}{HTML}{EEEEEE}
+
+\definecolor{comments}{HTML}{868686}
+
+\lstset{language=python,
+    keywordstyle=\color{keywords},
+    basicstyle=\normalfont\ttfamily,
+    commentstyle=\color{comments}\ttfamily,
+    stringstyle=\rmfamily,
+    numbers=left,
+    numberstyle=\scriptsize,
+    stepnumber=1,
+    numbersep=8pt,
+    showstringspaces=false,
+    breaklines=true,
+    frameround=ftff,
+    frame=lines,
+    morekeywords={RequirePackage,ProvidesPackage},
+    backgroundcolor=\color{background}
+}
+
+\begin{document}
+
+\begin{lstlisting}[firstnumber=1]
+def sinx:
+    for i in range(20):
+        print "hello to my grooop"
+\end{lstlisting}
+
+\end{document}
