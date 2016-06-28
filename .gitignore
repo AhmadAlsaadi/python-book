@@ -87,3 +87,19 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# tex files:
+*.log
+*.dvi
+*.aux
+*.blg
+*.bbl
+*.idx
+*.ilg
+*.ind
+*.loe
+*.nav
+*.out
+*.toc
+*.snm
+*.vrb
